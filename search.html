@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsWave - Search</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/search.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="category.html">Categories</a>
+            <a href="search.html">Search</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Search News</h1>
+            <form id="search-form">
+                <input type="text" id="search-query" placeholder="Search for news..." />
+                <button type="submit">Search</button>
+            </form>
+            <div id="search-results" class="news-container">
+                <!-- Search results will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 NewsWave</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/search.js"></script>
+</body>
+</html>
